@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="888.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="smart.png" alt="Studio Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav-desktop">
+                <a href="team.html">Team</a>
+                <a href="legal.html">Legal</a>
+                <a href="android.html">Android</a>
+                <a href="ios.html">iOS</a>
+            </nav>
+
+            <div class="burger-menu" id="burger-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <a href="team.html">Team</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About Us</a>
+            <a href="policy.html">Policy</a>
+            <a href="terms.html">Terms</a>
+            <hr>
+            <a href="ios.html">iOS</a>
+            <a href="android.html">Android</a>
+            <a href="publish.html">Publish</a>
+            <a href="legal.html">Legal</a>
+            <a href="ux-ui.html">UX | UI</a>
+        </nav>
+    </div>
+
+<main class="contacts-page">
+        <div class="container">
+            <div class="contacts-wrapper">
+                
+                <div class="contacts-info">
+                    <span class="badge">Get in Touch</span>
+                    <h1>Let’s build something great together</h1>
+                    <p class="contacts-description">Have a question or a project idea? Reach out to us and our team will get back to you within 24 hours.</p>
+                    
+                    <div class="info-blocks">
+                        <div class="info-item">
+                            <h3>Email</h3>
+                            <a href="mailto:hello@studio-apps.co.uk">hello@studio-apps.co.uk</a>
+                        </div>
+                        <div class="info-item">
+                            <h3>Office</h3>
+                            <p>27 Old Gloucester Street, London, WC1N 3AX, United Kingdom</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Legal Entity</h3>
+                            <p>APP DEV SOLUTIONS LTD<br>Company Number: 12345678</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contacts-form-container">
+                    <form class="main-contact-form">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>How can we help?</label>
+                            <select>
+                                <option>Android Development</option>
+                                <option>iOS Development</option>
+                                <option>Legal / Publishing</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Tell us about your project..." rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="team.html">Team</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="faq.html">FAQ</a>
+                <a href="about.html">About Us</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+            <div class="footer-col">
+                <a href="ios.html">iOS</a>
+                <a href="android.html">Android</a>
+                <a href="publish.html">Publish</a>
+                <a href="legal.html">Legal</a>
+                <a href="ux-ui.html">UX | UI</a>
+            </div>
+            <div class="footer-col">
+                <button class="btn-primary btn-open-modal">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 | SMART TRYBE LTD | All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <div class="modal" id="feedback-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Feedback Form</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your project details..."></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

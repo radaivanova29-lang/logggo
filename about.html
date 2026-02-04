@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="888.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="smart.png" alt="Studio Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav-desktop">
+                <a href="team.html">Team</a>
+                <a href="legal.html">Legal</a>
+                <a href="android.html">Android</a>
+                <a href="ios.html">iOS</a>
+            </nav>
+
+            <div class="burger-menu" id="burger-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <a href="team.html">Team</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About Us</a>
+            <a href="policy.html">Policy</a>
+            <a href="terms.html">Terms</a>
+            <hr>
+            <a href="ios.html">iOS</a>
+            <a href="android.html">Android</a>
+            <a href="publish.html">Publish</a>
+            <a href="legal.html">Legal</a>
+            <a href="ux-ui.html">UX | UI</a>
+        </nav>
+    </div>
+
+<main class="about-page">
+        <section class="about-hero">
+            <div class="container">
+                <span class="badge">Our Story</span>
+                <h1>Turning complex ideas into simple digital solutions</h1>
+                <p>Founded in London, our studio brings together top-tier developers and designers to build products that redefine industries.</p>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Apps Launched</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Expert Devs</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="values-section">
+            <div class="container">
+                <h2 class="centered-title">Our Core Values</h2>
+                <div class="grid-layout">
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #007AFF;">Q</div>
+                        <h3>Quality First</h3>
+                        <p>We don't just write code; we build robust architectures that stand the test of time.</p>
+                    </div>
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #34C759;">T</div>
+                        <h3>Transparency</h3>
+                        <p>Clear communication and weekly reports. You always know exactly what we are working on.</p>
+                    </div>
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #AF52DE;">I</div>
+                        <h3>Innovation</h3>
+                        <p>We stay ahead of the curve, using the latest frameworks to give your app a competitive edge.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-simple">
+            <div class="container">
+                <div class="cta-card" style="background: var(--primary);">
+                    <h2 style="color: #fff;">Let's work together</h2>
+                    <p style="color: #fff; opacity: 0.9;">Join the dozens of successful founders who trusted us with their vision.</p>
+                    <button class="btn-primary btn-open-modal" style="background: #fff; color: var(--primary);">Contact Us</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="team.html">Team</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="faq.html">FAQ</a>
+                <a href="about.html">About Us</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+            <div class="footer-col">
+                <a href="ios.html">iOS</a>
+                <a href="android.html">Android</a>
+                <a href="publish.html">Publish</a>
+                <a href="legal.html">Legal</a>
+                <a href="ux-ui.html">UX | UI</a>
+            </div>
+            <div class="footer-col">
+                <button class="btn-primary btn-open-modal">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 | SMART TRYBE LTD | All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <div class="modal" id="feedback-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Feedback Form</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your project details..."></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

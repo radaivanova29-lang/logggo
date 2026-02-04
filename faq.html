@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="888.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="smart.png" alt="Studio Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav-desktop">
+                <a href="team.html">Team</a>
+                <a href="legal.html">Legal</a>
+                <a href="android.html">Android</a>
+                <a href="ios.html">iOS</a>
+            </nav>
+
+            <div class="burger-menu" id="burger-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <a href="team.html">Team</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About Us</a>
+            <a href="policy.html">Policy</a>
+            <a href="terms.html">Terms</a>
+            <hr>
+            <a href="ios.html">iOS</a>
+            <a href="android.html">Android</a>
+            <a href="publish.html">Publish</a>
+            <a href="legal.html">Legal</a>
+            <a href="ux-ui.html">UX | UI</a>
+        </nav>
+    </div>
+
+    <main class="faq-page">
+        <div class="container">
+            <div class="faq-hero">
+                <span class="badge">Support Center</span>
+                <h1>Common Questions</h1>
+                <p>Everything you need to know about our process, pricing, and app publishing.</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does it take to build an app?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A standard MVP (Minimum Viable Product) usually takes 2-4 months. Complex enterprise solutions with custom backends can take 6-12 months depending on the feature list.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you help with App Store and Google Play publishing?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we handle the entire process: from preparing metadata and screenshots to passing the review. We can publish apps to your own developer account or host them on our corporate accounts.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Who owns the source code?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You do. Upon final payment, we transfer 100% of the intellectual property rights and source code to you. This is strictly defined in our legal agreement.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide post-launch support?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We offer various maintenance packages to ensure your app stays compatible with new OS versions (iOS/Android updates) and remains secure.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-footer">
+                <p>Still have questions?</p>
+                <a href="contacts.html" class="btn-primary">Contact Our Team</a>
+            </div>
+        </div>
+    </main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="team.html">Team</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="faq.html">FAQ</a>
+                <a href="about.html">About Us</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+            <div class="footer-col">
+                <a href="ios.html">iOS</a>
+                <a href="android.html">Android</a>
+                <a href="publish.html">Publish</a>
+                <a href="legal.html">Legal</a>
+                <a href="ux-ui.html">UX | UI</a>
+            </div>
+            <div class="footer-col">
+                <button class="btn-primary btn-open-modal">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 | SMART TRYBE LTD | All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <div class="modal" id="feedback-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Feedback Form</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your project details..."></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

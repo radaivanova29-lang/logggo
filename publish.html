@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Publishing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="888.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="smart.png" alt="Studio Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav-desktop">
+                <a href="team.html">Team</a>
+                <a href="legal.html">Legal</a>
+                <a href="android.html">Android</a>
+                <a href="ios.html">iOS</a>
+            </nav>
+
+            <div class="burger-menu" id="burger-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <a href="team.html">Team</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About Us</a>
+            <a href="policy.html">Policy</a>
+            <a href="terms.html">Terms</a>
+            <hr>
+            <a href="ios.html">iOS</a>
+            <a href="android.html">Android</a>
+            <a href="publish.html">Publish</a>
+            <a href="legal.html">Legal</a>
+            <a href="ux-ui.html">UX | UI</a>
+        </nav>
+    </div>
+
+    <main class="publish-page">
+        <section class="page-hero">
+            <div class="container">
+                <span class="badge" style="background: rgba(175, 82, 222, 0.1); color: #AF52DE;">Global Launch</span>
+                <h1>App Store & Google Play Publishing</h1>
+                <p>We take the stress out of the release process. From metadata optimization to final approval, we ensure your app reaches its audience without technical or legal hurdles.</p>
+            </div>
+        </section>
+
+        <section class="publish-services">
+            <div class="container">
+                <div class="grid-layout">
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #AF52DE;">AM</div>
+                        <h3>Account Setup</h3>
+                        <p>We help set up Enterprise or Personal developer accounts and configure all necessary tax and banking information.</p>
+                    </div>
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #34C759;">AS</div>
+                        <h3>Store Optimization</h3>
+                        <p>App Store Optimization (ASO) to ensure your app is discoverable. We handle titles, keywords, and descriptions.</p>
+                    </div>
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #FF9500;">RV</div>
+                        <h3>Review Management</h3>
+                        <p>Direct communication with Apple and Google reviewers to resolve any rejections or technical queries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="publish-steps">
+            <div class="container">
+                <div class="feature-row" style="background: #fcfaff; border: 1px solid #f3eeff;">
+                    <div class="feature-text">
+                        <h3>Compliance Check</h3>
+                        <p>Before submission, we perform a 50-point check to ensure your app follows all latest guidelines, preventing 99% of common rejection reasons.</p>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Beta Testing</h3>
+                        <p>Deployment via TestFlight (iOS) and Google Play Console (Android) for internal and external testing before the big launch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-simple">
+            <div class="container">
+                <div class="cta-card" style="background: #5856D6;">
+                    <h2 style="color: #fff;">Don't let rejection slow you down</h2>
+                    <p style="color: #fff; opacity: 0.9;">Trust our 10+ years of experience in successful app store submissions.</p>
+                    <button class="btn-primary btn-open-modal" style="background: #fff; color: #5856D6;">Get Published Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="team.html">Team</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="faq.html">FAQ</a>
+                <a href="about.html">About Us</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+            <div class="footer-col">
+                <a href="ios.html">iOS</a>
+                <a href="android.html">Android</a>
+                <a href="publish.html">Publish</a>
+                <a href="legal.html">Legal</a>
+                <a href="ux-ui.html">UX | UI</a>
+            </div>
+            <div class="footer-col">
+                <button class="btn-primary btn-open-modal">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 | SMART TRYBE LTD | All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <div class="modal" id="feedback-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Feedback Form</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your project details..."></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

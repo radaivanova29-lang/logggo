@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="888.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="smart.png" alt="Studio Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav-desktop">
+                <a href="team.html">Team</a>
+                <a href="legal.html">Legal</a>
+                <a href="android.html">Android</a>
+                <a href="ios.html">iOS</a>
+            </nav>
+
+            <div class="burger-menu" id="burger-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <a href="team.html">Team</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About Us</a>
+            <a href="policy.html">Policy</a>
+            <a href="terms.html">Terms</a>
+            <hr>
+            <a href="ios.html">iOS</a>
+            <a href="android.html">Android</a>
+            <a href="publish.html">Publish</a>
+            <a href="legal.html">Legal</a>
+            <a href="ux-ui.html">UX | UI</a>
+        </nav>
+    </div>
+
+    <main class="ux-ui-page">
+        <section class="page-hero">
+            <div class="container">
+                <span class="badge-design">Design Excellence</span>
+                <h1>User Experience & Interface Design</h1>
+                <p>We blend behavioral science with aesthetic precision to create interfaces that are not just beautiful, but intuitive and conversion-oriented.</p>
+            </div>
+        </section>
+
+        <section class="design-process">
+            <div class="container">
+                <h2 class="centered-title">Our Creative Approach</h2>
+                <div class="grid-layout">
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #FF3B30;">UX</div>
+                        <h3>UX Research</h3>
+                        <p>Deep dive into user behavior, creating personas, and mapping customer journeys to solve real problems.</p>
+                    </div>
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #5856D6;">WF</div>
+                        <h3>Wireframing</h3>
+                        <p>Architecting the skeleton of your app to ensure a logical flow before a single pixel of color is added.</p>
+                    </div>
+                    <div class="stack-card">
+                        <div class="card-accent" style="background: #FF9500;">UI</div>
+                        <h3>Visual Design</h3>
+                        <p>Crafting high-fidelity mockups with attention to typography, spacing, and brand identity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="design-details">
+            <div class="container">
+                <div class="feature-row-design">
+                    <div class="feature-text">
+                        <h3>Interactive Prototypes</h3>
+                        <p>We provide clickable Figma prototypes so you can feel the app's flow and test the experience on actual devices before development starts.</p>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Design Systems</h3>
+                        <p>We don't just design screens; we build scalable design systems with reusable components for long-term consistency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-simple">
+            <div class="container">
+                <div class="cta-card-design">
+                    <h2>Beautiful apps start with a conversation</h2>
+                    <p>Let's discuss how we can make your product both functional and visually stunning.</p>
+                    <button class="btn-primary btn-open-modal">Book a Design Review</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="team.html">Team</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="faq.html">FAQ</a>
+                <a href="about.html">About Us</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+            <div class="footer-col">
+                <a href="ios.html">iOS</a>
+                <a href="android.html">Android</a>
+                <a href="publish.html">Publish</a>
+                <a href="legal.html">Legal</a>
+                <a href="ux-ui.html">UX | UI</a>
+            </div>
+            <div class="footer-col">
+                <button class="btn-primary btn-open-modal">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 | SMART TRYBE LTD | All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <div class="modal" id="feedback-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Feedback Form</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your project details..."></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

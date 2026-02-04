@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="888.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="smart.png" alt="Studio Logo" class="logo-img">
+            </a>
+            <nav class="nav-desktop">
+                <a href="team.html" class="active">Team</a>
+                <a href="legal.html">Legal</a>
+                <a href="android.html">Android</a>
+                <a href="ios.html">iOS</a>
+            </nav>
+            <div class="burger-menu" id="burger-trigger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <a href="team.html">Team</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About Us</a>
+            <a href="policy.html">Policy</a>
+            <a href="terms.html">Terms</a>
+            <hr>
+            <a href="ios.html">iOS</a>
+            <a href="android.html">Android</a>
+            <a href="publish.html">Publish</a>
+            <a href="legal.html">Legal</a>
+            <a href="ux-ui.html">UX | UI</a>
+        </nav>
+    </div>
+
+<section class="team-page">
+    <div class="container">
+        <h1 class="page-title">Our Leadership</h1>
+        <p class="page-subtitle">Expert minds driving digital innovation and excellence.</p>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">CEO</div>
+                </div>
+                <h3>Adams Sunday</h3>
+                <p class="role">Director</p>
+                <p class="bio">A visionary strategist with over 12 years of experience in the UK technology sector.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">iOS</div>
+                </div>
+                <h3>David Moore</h3>
+                <p class="role">iOS Team Lead</p>
+                <p class="bio">Expert in high-performance application architecture for the Apple ecosystem.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">AND</div>
+                </div>
+                <h3>Dmitry Smirnov</h3>
+                <p class="role">Android Team Lead</p>
+                <p class="bio">Kotlin and Jetpack Compose specialist building scalable mobile solutions.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">UX</div>
+                </div>
+                <h3>Nisha Kapoor</h3>
+                <p class="role">UX | UI Designer</p>
+                <p class="bio">Crafting intuitive and aesthetically flawless user-centric interfaces.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">QA</div>
+                </div>
+                <h3>Peter Holloway</h3>
+                <p class="role">QA Engineer</p>
+                <p class="bio">Ensuring impeccable product quality and stability throughout all testing phases.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">LAW</div>
+                </div>
+                <h3>Aisha Verma</h3>
+                <p class="role">Legal Counsel</p>
+                <p class="bio">Specializing in intellectual property protection and App Store/Google Play compliance.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">BE</div>
+                </div>
+                <h3>Imran Ali</h3>
+                <p class="role">Backend Developer</p>
+                <p class="bio">Master of server-side logic and database security, building the foundation of our systems.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="member-photo-wrapper">
+                    <div class="photo-circle initials">PM</div>
+                </div>
+                <h3>Hamza Siddiqui</h3>
+                <p class="role">Project Manager</p>
+                <p class="bio">The vital link between your vision and the team, ensuring timely project delivery.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="team.html">Team</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="faq.html">FAQ</a>
+                <a href="about.html">About Us</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+            <div class="footer-col">
+                <a href="ios.html">iOS</a>
+                <a href="android.html">Android</a>
+                <a href="publish.html">Publish</a>
+                <a href="legal.html">Legal</a>
+                <a href="ux-ui.html">UX | UI</a>
+            </div>
+            <div class="footer-col">
+                <button class="btn-primary btn-open-modal">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 | SMART TRYBE LTD | All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <div class="modal" id="feedback-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Feedback Form</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your project details..."></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
